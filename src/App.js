@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Header";
-
+import TinderCards from "./TinderCards";
+import SwipeButtons from "./SwipeButtons";
 function App() {
   return (
     //Bem naming convention http://getbem.com/naming/
@@ -11,9 +12,14 @@ function App() {
 
       {/*Profile Cards*/}
 
+      <TinderCards/>
 
-      
+
+
       {/*SwipeButtons*/}
+
+      <SwipeButtons/>
+
     </div>
   );
 }
